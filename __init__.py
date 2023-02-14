@@ -6,7 +6,7 @@ import gzip
 from math import log2, ceil
 from dataclasses import dataclass, field, replace
 from typing import BinaryIO, Optional
-from nbt import load_nbt_bytes, \
+from .nbt import load_nbt_bytes, \
     TAG_Compound, TAG_Long_Array
 
 '''
